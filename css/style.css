@@ -519,3 +519,220 @@ a {
   text-align: center;
   font-size: 1.8rem;
 }
+
+/* ========================================students================================== */
+
+.students .content-stu {
+  margin-top: 264px;
+  display: flex;
+  height: 481px;
+}
+.students .content-stu .desc > img {
+  width: 36px;
+  height: 29px;
+  margin-top: 37px;
+}
+.students .content-stu .desc > p:first-of-type {
+  margin-top: 26px;
+  color: #5d6564;
+  width: 419px;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+.students .content-stu .desc > p:nth-of-type(2) {
+  margin-top: 33px;
+}
+.students .content-stu .desc span {
+  color: #767e7e;
+  font-size: 1.6rem;
+}
+.students .content-stu .desc strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.students .content-stu .desc strong::before {
+  content: "";
+  width: 8px;
+  height: 2px;
+  background: #070707;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.students .content-stu .desc .action {
+  margin-top: 52px;
+  display: inline-flex;
+  gap: 30px;
+}
+
+.students .content-stu .desc .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: solid;
+  background: #2ac9bf;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.students .content-stu .ava {
+  position: relative;
+}
+
+.students .content-stu .ava .ava1 {
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  border-radius: 92px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  top: 0;
+  left: 216px;
+  background: #1ebfc1;
+}
+.students .content-stu .ava .ava2 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  top: 258px;
+  left: 72px;
+  background: #ffc147;
+}
+.students .content-stu .ava .ava3 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 78px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  bottom: 0;
+  left: 264px;
+  background: #ff947a;
+}
+.students .content-stu .ava .ava4 {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  border-radius: 235px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  left: 345px;
+  top: 25%;
+  background: #ff8282;
+}
+.students .content-stu .ava .ava5 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 92px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  bottom: 29px;
+  left: 641px;
+  background: #b1dfdc;
+}
+
+.students .content-stu .ava .ava6 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 92px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  top: 19px;
+  left: 641px;
+  background: #bf83ff;
+}
+
+/* ========================================students================================== */
+
+.ready .content-ready {
+  margin: 130px auto 0;
+  position: relative;
+  width: 1440px;
+  height: 272px;
+  background: #def6f5;
+}
+
+.ready .content-ready > p:first-of-type {
+  position: absolute;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+  width: 420px;
+  left: 135px;
+  top: 76px;
+}
+.ready .content-ready > p:nth-of-type(2) {
+  top: 157px;
+  position: absolute;
+  color: #767e7e;
+  font-size: 1.8rem;
+  width: 397px;
+  left: 135px;
+}
+.ready .content-ready button {
+  position: absolute;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2ac9bf;
+  top: 96px;
+  right: 289px;
+}
+.ready .content-ready button a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+/* ========================================footer================================== */
+.footer .content-footer {
+  width: 1440px;
+  color: #535353;
+  margin: 0 auto 0;
+}
+.footer .content-footer .column {
+  display: flex;
+  gap: 144px;
+}
+.footer .content-footer .logo {
+  width: 127px;
+  height: 37px;
+  margin-top: 131px;
+  margin-left: 135px;
+}
+.footer .content-footer ul {
+  margin-top: 131px;
+}
+.footer .content-footer ul li:first-child {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.footer .content-footer ul li:nth-child(n + 2) {
+  color: #535353;
+  font-size: 1.6rem;
+  margin-top: 25px;
+}
+.footer .content-footer ul li a {
+  color: #535353;
+  font-size: 1.6rem;
+}
+.footer .content-footer .column4 li:nth-child(n + 2) {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.footer .content-footer .column4 li:nth-child(n + 2) img {
+  width: 20px;
+  height: 20px;
+}
+.footer .content-footer .copyright {
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  margin-left: 478px;
+  margin-top: 80px;
+}
